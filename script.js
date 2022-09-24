@@ -11,8 +11,8 @@
     function compute() {
         let principal = document.getElementById("principal").value;
 
-        // Validates principal input field for positive numbers only
-        if (principal <= 0) {
+        // Validates principal input field for positive numbers and numbers that starts with 0
+        if (principal <= 0 || principal[0] === 0) {
             alert("Enter a positive number");
             document.getElementById("principal").value = "";
             document.getElementById("principal").focus();
