@@ -1,4 +1,67 @@
-body {background-color:tan;}
-h1{color:green;}
+@charset "utf-8";
+
+/*
+    Project: Final project
+    Author: Dmitrii Sumenko
+    Date: 9/23/2022
+    file name: style.css
+
+ */
+
+
+    body {
+        background-color:black;
+        font-family:arial, serif;
+        color:white
+    }
+
+    div.main-div p {
+        font-family: Arial, serif;
+        font-size: 1.2em;
+        padding-left: 25px;
+    }
+
+    h1 {
+        padding-top: 10px;
+        text-align: center;
+        color:grey;
+        font-family: Verdana, serif;
+    }
+
+    p#text {
+        padding-left: 85px;
+    }
+
+    label, label#years, button {
+        display: inline-block;
+        width: 9em;
+        text-align: left;
+    }
+
+    input, select {
+        margin-left: 1em;
+        margin-right: 0.5em;
+    }
+
+    .main-div {
+        background-color: white;
+        color: black;
+        width: 500px;
+        border-radius: 25px;
+        margin: 0 auto;
+        vertical-align: center;
+        line-height: 2em;
+        padding: 5px;
+    }
+
+    div#inputs {
+        display: block;
+        padding-left: 85px;
+    }
+
+    footer {
+        text-align: center;
+        margin: 40px 0 0 0;
+    }
 
 
